@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\platform",
+    "\\platform\\core",
+    "\\platform\\core\\acl",
+    "\\platform\\core\\acl\\resources",
+    "\\platform\\core\\acl\\resources\\views\\users",
+    "\\platform\\core\\base",
+    "\\platform\\core\\base\\resources",
+    "\\platform\\core\\table\\resources",
+    "\\platform\\core\\table\\resources\\views",
+    "\\platform\\core\\table\\resources\\views\\partials"
+  ],
+  "SelectedNode": "\\platform\\core\\acl\\resources\\views",
+  "PreviewInSolutionExplorer": false
+}

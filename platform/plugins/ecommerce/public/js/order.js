@@ -1,0 +1,1 @@
+$(document).ready((function(){$(document).ready((function(){$.ajax({url:'{{ route("orders.get_courier") }}',method:"GET",dataType:"json",success:function(e){var o,n,r;o=e,n=$("#dropdown-container"),r=$("<select>"),$.each(o,(function(e,o){var n=$("<option>");n.val(o.value),n.text(o.text),r.append(n)})),n.append(r)},error:function(e,o,n){console.error(e.responseText)}})}))}));

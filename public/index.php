@@ -35,7 +35,7 @@ ini_set('memory_limit', '-1');
 |
 */
 
-require __DIR__.'/../vendor/autoload.php';
+require '../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -48,7 +48,7 @@ require __DIR__.'/../vendor/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+$app = require_once '../bootstrap/app.php';
 
 $app->bind('path.public', function() {
     return (__DIR__);

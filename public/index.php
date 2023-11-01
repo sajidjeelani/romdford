@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors', '1');
+ini_set('display_startup_errors', '1');
+error_reporting(E_ALL);
 
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
@@ -17,9 +20,9 @@ define('LARAVEL_START', microtime(true));
 */
 ini_set('memory_limit', '-1');
 
-if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
-    require __DIR__.'/../storage/framework/maintenance.php';
-}
+// if (file_exists(__DIR__.'/../storage/framework/maintenance.php')) {
+//     require __DIR__.'/../storage/framework/maintenance.php';
+// }
 
 /*
 |--------------------------------------------------------------------------
